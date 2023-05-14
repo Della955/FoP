@@ -1,0 +1,42 @@
+body{
+    background-color: lightsalmon;
+    color:white
+}
+h1{
+    text-align: center;
+}
+
+#turnGreen{
+    color:white;
+    background-color: green;
+    text-align: center;
+}
+
+#turnRed{
+   color: white;
+   background-color: red;
+   text-align: center;
+}
+
+#turnBlue{
+    color:white;
+    background-color: blue;
+    text-align: center;
+}
+
+#turnPurple{
+    color:white;
+    background-color: purple;
+    text-align: center;
+}
+
+#random{
+    color:white; 
+    background-color: purple;
+    text-align: center;
+}
+li{
+    align-items: center;
+    display: inline-block;
+    padding: 50px;
+}
