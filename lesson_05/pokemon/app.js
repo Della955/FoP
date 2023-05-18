@@ -2,7 +2,9 @@ document.querySelector('button').addEventListener('click', getFetch)
 
 
 
+
 async function getFetch() {
+    
     const choice = document.querySelector('input').value.toLowerCase()  
     const url = 'https://pokeapi.co/api/v2/pokemon/'+choice
 
@@ -20,12 +22,13 @@ async function getFetch() {
     var checkbox = document.querySelector("input[name=checkbox]")
     checkbox.addEventListener('change', function(){
         if (this.checked) {
-            document.querySelector('img').src = pokemonInfo.sprites.front_shiny
-        }
+          document.querySelector('img').src = pokemonInfo.sprites.front_shiny
+       }
         else if (!this.checked){
             document.querySelector('img').src = pokemonInfo.sprites.front_default
         }
     }); 
+ 
  
     }
 

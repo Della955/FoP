@@ -1,0 +1,11 @@
+img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    align-items: center;
+   
+}
+body{
+   text-align: center;
+   display: block;
+}

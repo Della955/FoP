@@ -8,11 +8,9 @@ h2 {
 
 }
 
-
-
 ul {
     width: 100px;
-    height: 200px;
+  
     margin: 0 auto;
     list-style: none;
     padding: 0;
@@ -21,7 +19,6 @@ ul {
 li {
     text-align: center;
     width: 100px;
- 
     border: 1px solid black; 
 }
 
@@ -31,7 +28,36 @@ li {
     flex-direction: row;
     display: flex;
     flex-flow: grid;
+    flex: 4;
+}
+
+.container2{
+    align-items: center;
+    align-content: space-around;
+    flex-direction:row;
+    display: flex;
+    flex-flow: grid;
     row-gap: 10px;
     flex: 4;
-    
 }
+
+.container3{
+    align-items: center;
+    align-content: space-around;
+    flex-direction:row;
+    display: flex;
+    flex-flow: grid;
+    row-gap: 10px;
+    flex: 4;
+}
+
+.container4{
+    align-items: center;
+    align-content: space-around;
+    flex-direction:row;
+    display: flex;
+    flex-flow: grid;
+    row-gap: 10px;
+    flex: 4;
+}
+
